@@ -1,0 +1,29 @@
+﻿@using CriticalRoleBingoCardGenerator
+@inherits LayoutComponentBase
+
+<div class="page">
+    <div class="main">
+        <div class="content justify-content-center">
+            @foreach (string[] chunk in bingoSquares.Chunk(5))
+            {
+                <div class="row">
+                    @foreach (string item in chunk)
+                    {
+                        <BingoSquare>@item</BingoSquare>
+                    }
+                </div>
+            }
+            <div class="row">
+                <p>
+                    <a href="#" class="btn  btn-info p-2 m-2">New Card</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code{
+    private IEnumerable<string> bingoSquares;
+
+    protected override void OnParametersSet() => bingoSquares = Options.GetOptions();
+}
