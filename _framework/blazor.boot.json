@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "CritRoleBingoCardGenerator.dll": "sha256-seDORpIG7MicmzfrFd84vgUiIYhJq8s1QaNxAAybL70=",
+      "CritRoleBingoCardGenerator.dll": "sha256-q2ce5Sa3YoMA+rzZEQyD6giW6H8v2HI6mD6Tjxu9p+I=",
       "Microsoft.AspNetCore.Components.dll": "sha256-b3wj7fS+bTayOhxWWam3DKCpOrb+L09jR21HvMcbZf8=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-SI83prWnMva+PJ7Eh\/SpQSp5UuRHzXtXYpJkcsurnyc=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-zDm1W+8xhczn35jGLuz5LXoFyoy4qDZrLxHkPX5VLW8=",
