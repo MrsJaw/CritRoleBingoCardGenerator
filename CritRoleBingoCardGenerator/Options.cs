@@ -50,6 +50,13 @@ namespace CriticalRoleBingoCardGenerator
             " \"Up the Butt\" ",
             "Laura Has a Dirty Mind",
             "Dice are Jailed",
+            "Laura Argues the Rules",
+            "Matt Unholy Monster Sound Effect",
+            "Sam Sings",
+            "Unanimous Screaming",
+            "All But 1 or 2 Asked to Leave the Table",
+            "Someone Does Math Wrong",
+            "You Shrug It Off",
             "Matt Double Face Palm"
         };
 
